@@ -9,7 +9,7 @@ on:
         required: true
         type: string
 env:
-  PYTHON_VERSION: "3.9"
+  PYTHON_VERSION: "3.12"
 
 concurrency:
   # Serializing this workflow.
