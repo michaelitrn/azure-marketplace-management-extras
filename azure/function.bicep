@@ -197,7 +197,7 @@ resource function 'Microsoft.Web/sites@2021-03-01' = {
     serverFarmId: hostingPlan.id
     httpsOnly: true
     siteConfig: {
-      linuxFxVersion: 'Python|3.9'
+      linuxFxVersion: 'Python|3.12'
       appSettings: [
         {
           name: 'AzureWebJobsDashboard'

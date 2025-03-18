@@ -36,7 +36,7 @@ The function has the following requirements:
 
 - AZ cli
 - [Azure Functions runtime](https://docs.microsoft.com/en-us/azure/azure-functions/functions-versions?tabs=in-process%2Cv4&pivots=programming-language-python) version 4.x
-- Python 3.9 and pip
+- Python 3.12 and pip
 - Virtualenv
 - Also check out [Quickstart: Create a function in Azure with Python using Visual Studio Code](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python#configure-your-environment)
 to find out additional requirements and the recommended VS Code extensions.
@@ -117,7 +117,7 @@ The function has the following requirements:
 
 - AZ cli
 - [Azure Functions runtime](https://docs.microsoft.com/en-us/azure/azure-functions/functions-versions?tabs=in-process%2Cv4&pivots=programming-language-python) version 4.x
-- Python 3.9 and pip
+- Python 3.12 and pip
 - Virtualenv
 - Also check out [Quickstart: Create a function in Azure with Python using Visual Studio Code](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python#configure-your-environment) to find out additional requirements and the recommended VS Code extensions.
 
@@ -138,7 +138,7 @@ Now, make sure you are logged in with your AZ cli tool, and run the function wit
 
 ```
 $ func start
-Found Python version 3.9.10 (python3).
+Found Python version 3.12 (python3).
 
 Azure Functions Core Tools
 Core Tools Version:       4.0.3971 Commit hash: d0775d487c93ebd49e9c1166d5c3c01f3c76eaaf  (64-bit)
@@ -203,7 +203,7 @@ $ pip install pytest
 ...
 $ pytest NotificationHandler
 ================================================= test session starts ==================================================
-platform linux -- Python 3.9.10, pytest-7.1.1, pluggy-1.0.0
+platform linux -- Python 3.12, pytest-7.1.1, pluggy-1.0.0
 rootdir: /home/user/projects/notification-endpoint
 collected 10 items
 
