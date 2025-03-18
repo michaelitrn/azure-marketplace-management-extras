@@ -1,5 +1,5 @@
 # Do not include azure-functions-worker as it may conflict with the Azure Functions platform
-aiohttp~=3.8.4
+aiohttp~=3.11.14
 aiolimiter~=1.0.0
 azure-data-tables~=12.4.2
 azure-functions~=1.13.2
