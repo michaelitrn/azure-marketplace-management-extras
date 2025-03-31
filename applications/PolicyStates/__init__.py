@@ -5,7 +5,7 @@ from azure.identity.aio import ManagedIdentityCredential
 from azure.identity.aio import ClientSecretCredential
 import azure.functions as func
 import asyncio
-from collections import AsyncIterable
+from collections.abc import AsyncIterable
 
 from azure.monitor.ingestion.aio import LogsIngestionClient
 from azure.core.exceptions import HttpResponseError
